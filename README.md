@@ -1,126 +1,82 @@
-# ASTRAL MULTI TOOL
+# ASTRAL Multi Tool
 
-**A modular Python-based multi-tool for cryptography and network analysis.**
+**A powerful, modular, all-in-one terminal toolkit.**
 
-ASTRAL is a terminal-based toolkit bringing together cryptographic utilities, networking diagnostics, and security-related tools in one organized application.
+ASTRAL is a Windows-based multi-tool featuring cryptography, networking, network analysis, and many other utilities — all accessible through an interactive terminal dashboard.
 
-Built with Python, ASTRAL features a modular architecture with individually implemented tools, an interactive terminal dashboard, fuzzy search, and live execution feedback.
+## Latest Release
+
+**Version:** v0.1.0
+
+**[Download ASTRAL v0.1.0](https://github.com/meowedmiau/Astral-Multi-Tool/releases/latest)**
 
 ## Features
 
-### Cryptography — 151 Tools
-
-- Encoding and Decoding
-- Hashing
-- Fernet Encryption and Decryption
-- AES Encryption and Decryption
-- Classical Ciphers
-- RSA
-- Elliptic Curve Cryptography (ECC)
-
-### Networking — 40 Tools
-
-- IP and DNS Utilities
-- Port Utilities
-- HTTP Utilities
-- Network Analysis
-
-### Terminal Experience
-
+- 191 built-in tools
+- Cryptography utilities
+- Encoding and decoding
+- Hashing and encryption
+- Networking utilities
+- IP and DNS information
+- Port utilities
+- HTTP utilities
+- Network analysis
 - Interactive terminal dashboard
-- Organized module and category navigation
-- Tool numbering and aliases
-- Fuzzy search
-- Command autocomplete
-- Live execution feedback
-- Configurable application settings
-
-## Project Statistics
-
-| Metric | Count |
-|---|---:|
-| Total Tools | 191 |
-| Cryptography Tools | 151 |
-| Networking Tools | 40 |
-| Python Files | 229 |
-
-## Requirements
-
-- Python 3
-- pip
+- Tool search and autocomplete
+- Modular architecture
+- Automatic update checking and installation
 
 ## Installation
 
-Clone the repository:
+1. Visit the [latest release page](https://github.com/meowedmiau/Astral-Multi-Tool/releases/latest).
+2. Download `ASTRAL.exe`.
+3. Place the executable in a folder of your choice.
+4. Double-click `ASTRAL.exe` to launch ASTRAL.
 
-```bash
-git clone YOUR_REPOSITORY_URL
-cd Astral-Multi-Tool
-```
+**No Python installation required.**
 
-Install the dependencies:
+## Updates
 
-```bash
-py -m pip install -r requirements.txt
-```
+ASTRAL automatically checks GitHub Releases for newer versions.
 
-## Running ASTRAL
+When an update is available, ASTRAL will notify you and allow you to install it directly through the application.
 
-Start the application:
+## Usage
 
-```bash
-py main.py
-```
+Launch ASTRAL.exe and navigate through the interactive dashboard.
 
-Navigate through the dashboard to explore the available modules and execute individual tools.
+Available commands include:
 
-## Configuration
+- `help` — Display available commands.
+- `version` — Display the current version.
+- `modules` — Display available modules.
+- `search` — Search for tools.
+- `stats` — Display application statistics.
+- `update` — Install an available update.
+- `exit` — Close ASTRAL.
 
-Application settings are stored in `settings.json`.
+## Security & Responsible Use
 
-You can configure:
+ASTRAL is intended for legitimate educational, diagnostic, and authorized security-testing purposes.
 
-- Application name and version
-- Accent and secondary colors
-- Background color
-- Banner visibility
-- Command history
-- Fuzzy search
-- Maximum command history size
+Only use its networking and security capabilities on systems and networks you own or have explicit permission to test.
 
-## Project Structure
-
-```text
-Astral-Multi-Tool/
-├── astral/
-│   ├── core/
-│   ├── terminal/
-│   └── modules/
-│       ├── cryptography/
-│       └── networking/
-├── data/
-├── DISCLAIMER.md
-├── LICENSE
-├── README.md
-├── requirements.txt
-├── settings.json
-└── main.py
-```
-
-## Disclaimer
-
-ASTRAL is intended for educational, diagnostic, and authorized security-testing purposes only.
-
-Users are responsible for ensuring that their activities are lawful and authorized.
-
-The software is provided "AS IS". Read the full [DISCLAIMER](DISCLAIMER.md) before using ASTRAL.
+See [DISCLAIMER.md](DISCLAIMER.md) for additional information.
 
 ## License
 
-See the [LICENSE](LICENSE) file for licensing information.
+ASTRAL is proprietary software.
+
+The official, unmodified executable is free to download and use under the terms of the [LICENSE](LICENSE).
+
+Redistribution, resale, and unauthorized modification are restricted.
+
+## Links
+
+- [Download Latest Release](https://github.com/meowedmiau/Astral-Multi-Tool/releases/latest)
+- [GitHub Repository](https://github.com/meowedmiau/Astral-Multi-Tool)
+- [Report an Issue](https://github.com/meowedmiau/Astral-Multi-Tool/issues)
 
 ---
 
-**ASTRAL MULTI TOOL**
-
-*One terminal. 191 tools. Multiple capabilities.*
+**ASTRAL Multi Tool — Built for power, designed for simplicity.**
